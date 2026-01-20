@@ -1,0 +1,42 @@
+﻿.tcs-admin-root {
+    padding: 4px;
+    height: 100%;          /* allow children to size to window */
+    flex-direction: column;
+    display: flex;
+    gap: 6px;
+}
+
+.cmd-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.cmd-input {
+    flex: 1 1 auto;        /* text field expands */
+    min-width: 0;          /* prevent overflow in flex row */
+}
+
+.split-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;        /* this row fills remaining space */
+    min-height: 0;         /* critical so ScrollView/ListView can shrink */
+}
+
+#history {
+    width: 35%;
+    border-right: 1px solid #333;
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+}
+
+#log {
+    flex: 1 1 0;
+    padding-left: 8px;
+    height: 100%;
+    min-width: 0;          /* let content wrap instead of forcing overflow */
+    min-height: 0;
+}

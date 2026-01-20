@@ -1,0 +1,19 @@
+{
+  "name": "com.tweakingcatstudios.tools.adminwindow",
+  "displayName": "TCS Admin Window",
+  "version": "1.0.0",
+  "description": "Command console & admin utilities for designers and engineers.",
+  "unity": "6000.0",
+  "author": { "name": "TweakingCatStudios", "url": "https://tweakingcatstudios.com" },
+  "keywords": ["tcs","tools","editor","admin","console"],
+  "samples": [
+    {
+      "displayName": "Getting Started",
+      "description": "Sample UI and example commands.",
+      "path": "Samples~/GettingStarted"
+    }
+  ],
+  "dependencies": {
+    "com.unity.test-framework": "1.4.5"
+  }
+}

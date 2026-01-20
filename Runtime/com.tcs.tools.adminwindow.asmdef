@@ -1,0 +1,5 @@
+{
+  "name": "com.tcs.tools.adminwindow",
+  "rootNamespace": "TCS.AdminWindow",
+  "autoReferenced": true
+}

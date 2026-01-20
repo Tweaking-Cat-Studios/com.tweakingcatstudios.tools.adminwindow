@@ -1,0 +1,7 @@
+{
+  "name": "com.tcs.tools.adminwindow.editor",
+  "rootNamespace": "TCS.AdminWindow.Editor",
+  "references": [ "com.tcs.tools.adminwindow" ],
+  "includePlatforms": [ "Editor" ],
+  "autoReferenced": true
+}

@@ -1,0 +1,19 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="tcs-admin-root">
+        <!-- Row: command + actions (runtime-safe controls) -->
+        <ui:VisualElement class="cmd-row">
+            <ui:TextField name="cmdInput" class="cmd-input" />
+            <ui:Button    name="runButton"     text="Run" />
+            <ui:Toggle    name="dryRun"        text="Dry" />
+            <ui:Button    name="refresh"       text="Refresh" />
+            <ui:Button    name="clearLog"      text="Clear Log" />
+            <ui:Button    name="clearHistory"  text="Clear History" />
+        </ui:VisualElement>
+
+        <!-- Split row: history (left) + log (right) -->
+        <ui:VisualElement class="split-row">
+            <ui:ListView   name="history" virtualization-mode="Dynamic" />
+            <ui:ScrollView name="log" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+{
+  "name": "TCS.Admin.ReflexBridge.Editor",
+  "rootNamespace": "TCS.Admin",
+  "references": [ "TCS.Admin.Editor", "Reflex", "com.tcs.tools.adminwindow.editor", "com.tcs.tools.adminwindow" ],
+  "includePlatforms": [ "Editor" ],
+  "allowUnsafeCode": false,
+  "autoReferenced": true,
+  "defineConstraints": [ "HAS_REFLEX" ],
+  "versionDefines": [
+    { "name": "com.gustavopsantos.reflex", "expression": "0.0", "define": "HAS_REFLEX" }
+  ]
+}
