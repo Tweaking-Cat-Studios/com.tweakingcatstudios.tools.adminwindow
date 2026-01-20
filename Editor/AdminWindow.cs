@@ -25,7 +25,7 @@ namespace com.tcs.tools.adminwindow.Editor
         static class AdminUiPaths
         {
             const string RootAssets = "Assets/TCSTools/AdminWindow";
-            const string RootPackage = "Packages/com.tcs.tools.adminwindow";
+            const string RootPackage = "Packages/com.tweakingcatstudios.tools.adminwindow";
             public static string PathFor(string relative)
             {
                 var a = System.IO.Path.Combine(RootAssets, relative).Replace('\\','/');
